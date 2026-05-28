@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paket Wisata — Senn Travel</title>
+    <meta name="description" content="Paket wisata premium Senn Travel — Bali Luxury, Raja Ampat Exclusive dan lebih banyak lagi.">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ini.css">
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <div class="logo-mark">S</div>
+            <span>Senn Travel</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="destinasi.html">Destinasi</a></li>
+                <li><a href="paket.html">Paket Wisata</a></li>
+                <li><a href="destinasi.html#event">Event</a></li>
+                <li><a href="destinasi.html#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="paket-hero">
+    <div class="paket-hero-content">
+        <span class="hero-label">✦ Eksklusif & Premium</span>
+        <h1>Paket Wisata<br><em>Terbaik Kami</em></h1>
+        <p>Dirancang untuk memberikan pengalaman perjalanan yang tak terlupakan di destinasi paling menakjubkan Indonesia.</p>
+    </div>
+</section>
+
+<section class="paket-section">
+    <div class="paket-intro">
+        <div>
+            <span class="section-label">✦ Pilihan Paket</span>
+            <h2>Temukan Paket<br><em>Untuk Anda</em></h2>
+        </div>
+        <p>Setiap paket dirancang dengan memperhatikan detail terkecil untuk memastikan perjalanan Anda sempurna.</p>
+    </div>
+
+    <div class="paket-container">
+
+        <div class="paket-card" onclick="openModal('bali')">
+            <div class="paket-img">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80" alt="Bali Luxury">
+                <span class="paket-duration">3 Hari · 2 Malam</span>
+            </div>
+            <div class="paket-body">
+                <h3>Bali Luxury Experience</h3>
+                <p>Nikmati keindahan Pulau Dewata dalam kemewahan sesungguhnya — villa tepi tebing, pantai privat, dan momen sunset terbaik.</p>
+                <div class="paket-footer">
+                    <div>
+                        <span class="paket-price-label">Mulai dari</span>
+                        <span class="paket-price">Rp 8.500.000</span><span style="font-size:13px;color:var(--text-light);margin-left:3px;">/orang</span>
+                    </div>
+                    <span class="paket-cta">Detail →</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="paket-card" onclick="openModal('raja')">
+            <div class="paket-img">
+                <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&q=80" alt="Raja Ampat Exclusive">
+                <span class="paket-duration">4 Hari · 3 Malam</span>
+            </div>
+            <div class="paket-body">
+                <h3>Raja Ampat Exclusive</h3>
+                <p>Jelajahi surga laut Indonesia — diving di spot terbaik dunia, kapal pribadi, dan resort eksklusif terapung.</p>
+                <div class="paket-footer">
+                    <div>
+                        <span class="paket-price-label">Mulai dari</span>
+                        <span class="paket-price">Rp 15.900.000</span><span style="font-size:13px;color:var(--text-light);margin-left:3px;">/orang</span>
+                    </div>
+                    <span class="paket-cta">Detail →</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div id="modal" class="modal" role="dialog" aria-modal="true">
+    <div class="modal-content" id="modalContent">
+        <button class="modal-close-btn" id="modalClose" aria-label="Tutup">×</button>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="logo-mark">S</div>
+                    <span>Senn Travel</span>
+                </div>
+                <p>Travel partner terpercaya untuk pengalaman wisata premium di seluruh Indonesia sejak 2016.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="destinasi.html">Destinasi</a></li>
+                    <li><a href="paket.html">Paket Wisata</a></li>
+                    <li><a href="destinasi.html#event">Event</a></li>
+                    <li><a href="destinasi.html#kontak">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Destinasi</h4>
+                <ul>
+                    <li><a href="destinasi.html">Bali</a></li>
+                    <li><a href="destinasi.html">Raja Ampat</a></li>
+                    <li><a href="destinasi.html">Yogyakarta</a></li>
+                    <li><a href="destinasi.html">Lombok</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Kontak</h4>
+                <ul>
+                    <li><a href="mailto:senntravel@gmail.com">senntravel@gmail.com</a></li>
+                    <li><a href="tel:+6281234567890">+62 812-3456-7890</a></li>
+                    <li><a href="#">WhatsApp</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Senn Travel. Semua hak dilindungi undang-undang.</p>
+            <div class="social-links">
+                <a href="#">📘 Facebook</a>
+                <a href="#">📷 Instagram</a>
+                <a href="#">💬 WhatsApp</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const paketData = {
+        bali: {
+            img: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=900&q=80',
+            alt: 'Bali Luxury',
+            label: 'Bali · 3 Hari 2 Malam',
+            title: 'Bali Luxury Experience',
+            price: 'Rp 8.500.000',
+            desc: 'Paket wisata premium dengan pengalaman eksklusif di Bali — villa mewah di tepi tebing Uluwatu, akses pantai privat Nusa Dua, dan itinerary yang dirancang personal untuk Anda.',
+            items: [
+                'Hotel bintang 5 (2 malam)',
+                'Private beach club access',
+                'Transportasi pribadi full AC',
+                'Tour guide profesional',
+                'Makan 3× sehari',
+                'Spa & wellness session',
+                'Sunset dinner romantis',
+                'Dokumentasi foto & video'
+            ]
+        },
+        raja: {
+            img: 'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=900&q=80',
+            alt: 'Raja Ampat Exclusive',
+            label: 'Raja Ampat · 4 Hari 3 Malam',
+            title: 'Raja Ampat Exclusive',
+            price: 'Rp 15.900.000',
+            desc: 'Petualangan mewah menjelajahi surga laut Indonesia. Diving di spot terbaik dunia, resort eksklusif terapung di atas laut kristal, dan island hopping dengan kapal pribadi.',
+            items: [
+                'Resort premium (3 malam)',
+                'Diving & snorkeling guide',
+                'Kapal pribadi full day',
+                'Makanan internasional',
+                'Island hopping tour',
+                'Underwater photography',
+                'Transportasi lengkap',
+                'Luxury lounge & welcome kit'
+            ]
+        }
+    };
+
+    function openModal(type) {
+        const data = paketData[type];
+        if (!data) return;
+
+        const listItems = data.items.map(i => `<li>${i}</li>`).join('');
+
+        document.getElementById('modalContent').innerHTML = `
+            <button class="modal-close-btn" onclick="closeModal()" aria-label="Tutup">×</button>
+            <div class="modal-grid">
+                <div class="modal-img">
+                    <img src="${data.img}" alt="${data.alt}">
+                </div>
+                <div class="modal-text">
+                    <span class="section-label">${data.label}</span>
+                    <h2>${data.title}</h2>
+                    <p class="modal-price">${data.price} <span style="font-size:16px;color:var(--text-light);font-family:'Outfit',sans-serif;font-weight:300;">/orang</span></p>
+                    <p>${data.desc}</p>
+                    <ul>${listItems}</ul>
+                    <a href="destinasi.html#kontak" class="modal-book-btn">Pesan Sekarang →</a>
+                </div>
+            </div>
+        `;
+
+        document.getElementById('modal').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+        document.getElementById('modal').style.display = 'none';
+        document.body.style.overflow = '';
+    }
+
+    document.getElementById('modal').addEventListener('click', function(e) {
+        if (e.target === this) closeModal();
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeModal();
+    });
+</script>
+
+</body>
+</html>
